@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #10101E;
+  }
+  
+  .datetime{
+    color: #fff;
+    background: #10101E;
+    font-family: "Segoe UI", sans-serif;
+    width: 400px;
+    padding: 10px 5px;
+    border: 2px solid #2E94E3;
+    border-radius: 2px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));
+    transition: 0.5s;
+    transition-property: background, box-shadow;
+    border-radius: 10px 20px;
+  }
+  
+  .datetime:hover{
+    background: #963420;
+    box-shadow: 0 0 20px #0e1011;
+    
+  }
+  
+  .date{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  
+  .time{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .time span:not(:last-child){
+    position: relative;
+    margin: 0 6px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  
+  .time span:last-child{
+    background: #FF4C29;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-radius: 3px 6px;
+  }
+  /*---countdown Timer Start-------*/
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   
+    text-align: center;
+    background-color: #082032;
+    font-family: 'open sans',sans-serif;
+    
+  }
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    color: rgb(49, 48, 48);
+    box-shadow: 3px 5px 10px;
+    background-color: #0e1011;
+    border: 2px solid #2E94EC ;
+    border-radius: 10px 20px;
+}
+.container:hover{
+  background: #b9361b;
+  box-shadow: 0 0 20px #0e1011;
+  
+}
+.container h1 {
+    color: #fff;
+}
+.time {
+    margin-top: 30px;
+    font-size: 42px;
+    color: #fff;
+}
+.buttons {
+    margin-top: 16px;
+}
+button {
+    border: 0;
+    padding: 12px 20px;
+    background: #FF4C29;
+    color: rgb(218, 209, 209);
+    margin: 4px;
+    border-radius: 4px;
+    font-size: 16px;
+    box-shadow: 2px 4px 6px;transition: 0.15s;
+}
+button:hover {
+    background: black;
+}
+button:disabled {
+    background: #ffbd8a;
+    box-shadow: none;
+}
+button:focus {
+    outline:0;
+}
+
